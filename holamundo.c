@@ -1,5 +1,5 @@
 
-/*  
+/**
  *  Copyright © 2012 CLINUX (Comunidad Linux UNI)
  *  
  *  This program is free software: you can redistribute it and/or modify
@@ -23,10 +23,10 @@ int main() {
     return 0;
 }
 
-/**
- *    Primer programa creado en lenguaje c compilado en djgpp y geany.
+/*
+ *	Primer programa creado en lenguaje c compilado en djgpp y geany.
  * 
- * 	Para compilar un programa desde djgpp sin geany hace desde la 
+ *	Para compilar un programa desde djgpp sin geany hace desde la 
  *	linea de conmandos con el siguiente comando: 
  *	 	gcc -c nombre.c -o nombre.exe
  *  y agregar la siguiente linea antes de return 0;
