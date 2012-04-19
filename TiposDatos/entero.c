@@ -20,7 +20,12 @@
 
 int main() 
 {
-    printf("Hola mundo\n");
+    int x=10;
+
+	printf( "El valor inicial de x es %i\n", x );
+	x=50;
+	printf( "Ahora el valor es %i\n", x );
+	
     return 0;
 }
 

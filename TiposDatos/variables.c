@@ -20,8 +20,38 @@
 
 int main() 
 {
-    printf("Hola mundo\n");
-    return 0;
+	/*
+	 * 	A las variables no se les puede dar cualquier nombre. 
+	 * 	No se pueden poner mas que letras de la 'a' a la 'z' (la ñ no vale), numeros y el simbolo '_'. 
+	 * 	No se pueden poner signos de admiracion, ni de interrogacion... 
+	 * 	El nombre de una variable puede contener numeros, pero simpre debe empezar con letras.
+	 */
+	 
+	camiones
+	numero
+	buffer
+	a1
+	j10hola29
+	num_alumnos
+	
+    /*
+     *	Ejemplos de nombres no validos:
+     */
+    
+	1abc
+	nombre?
+	num/alumnos;
+	
+	/*
+	 * 	Tampoco valen como nombres de variable las palabras reservadas que usa el compilador. 
+	 * 	Por ejemplo: for, main, do, while.
+	 * 	Por ultimo es interesante señalar que el C distingue entre mayusculas y minusculas. 
+	 * 	Por lo tanto las siguientes palabras seran tres variables distintas.
+	 */
+	 
+	Nombre
+	nombre
+	NOMBRE
 }
 
 /*
