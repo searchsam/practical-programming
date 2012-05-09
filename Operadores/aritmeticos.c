@@ -53,7 +53,71 @@ int main()
 	x += 5;	/*	
 			 *	Lo mismo que el anerior pero abreviado.
 			 */
-      
+    
+    /**
+     * 	Incremento (++)
+     */
+    
+    int x = 5;
+
+	x++;	/*
+			 *	Este operador equivale a sumar uno a la variable.
+			 * 	
+			 * 	Se puede poner antes o después de la variable.
+			 */
+	
+	/**
+	 * 	Resta/Negativo (-)
+	 */
+	
+	int a, b;
+
+	x = x - 5;	/*
+				 *	Este operador tiene dos usos, uno es la resta que funciona como el operador suma y el otro es cambiar de signo.
+				 * 
+				 * 	Para la operación resta se aplica todo lo dicho para la suma. Se puede usar también como: x -= 5;.
+				 * 	Pero también tiene el uso de cambiar de signo. Poniendolo delante de una variable o constante equivale a multiplicarla por -1. 
+				 */
+	
+	/**
+	 * 	Decremento (--)
+	 */
+	
+	/*
+	 * 	Es equivalente a ++ pero en vez de incrementar disminuye el valor de la variable. Equivale a restar uno a la variable.
+	 */
+	
+	/**
+	 * 	Multiplicación y punteros (*)
+	 */
+	
+	/*
+	 * 	Este operador sirve para multiplicar y funciona de manera parecida a los anteriores.
+	 * 	También sirve para definir y utilizar punteros, pero eso lo veremos más tarde.
+	 */
+	
+	/**
+	 * 	División (/)
+	 */
+	
+	/*
+	 * 	Este funciona también como los anteriores pero hay que tener cuidado. Si dividimos dos número en coma flotante (tipo float) tenemos las división con sus correspondientes decimales. Pero si dividimos dos enteros obtenemos un número entero. Es decir que si dividimos 4/3 tenemos como resultado 1. El redondeo se hace por truncamiento, simplemente se eliminan los decimales y se deja el entero.
+	 * 	
+	 * 	Si dividimos dos enteros el resultado es un número entero, aunque luego lo saquemos por pantalla usando %f o %d no obtendremos la parte decimal.
+	 */
+	
+	/**
+	 * 	Resto (%)
+	 */
+	
+	int a;
+	
+	a = 18 % 5;	/*
+				 *	Si con el anterior operador obteníamos el módulo o cociente de una división entera con éste podemos tener el resto. 
+				 * 	No funciona más que con enteros, no vale para números float o double.
+				 */
+	
+	
     return 0;
 }
 
