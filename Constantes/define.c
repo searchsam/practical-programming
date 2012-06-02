@@ -20,6 +20,9 @@
 
 /*
  * 	Las constantes son aquellos datos que no pueden cambiar a lo largo de la ejecucion de un programa.
+ * 
+ * 	C tiene cuatro tipo basicos de constantes: enteres, de coma flotante, caracter y cadena de coracteres
+ * 	( hay tambien enumeradas ).
  */
  
 #define PI 3.1416	/*

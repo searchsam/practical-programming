@@ -1,0 +1,5 @@
+
+#	archivo a ser ignorados en la agragacion de archivos a repositorio de git
+
+*.o
+*.exe
