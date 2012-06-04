@@ -61,7 +61,7 @@
  */ 
 
 /*
- * 	CONSTANTE ENTERA ENADECIMAL
+ * 	CONSTANTE ENTERA HEXADECIMAL
  * 	Una constante entera hexadecimal debe comensar por 0x o 0X.
  * 	Puede aparecer despues de cualquier combinacion de digitos tomados del conjunto de "0" a "9"
  * 	y de "a" a "f" ( tanto minusculas como minusculas ). Las letras de la "a" a la "f" 
@@ -71,12 +71,50 @@
  * 		0x		0x1		0x7FFF		0xabcd
  */
 #define entero_hexadecimal 0x7FFF
+/* 
+ * 	Las sigientes constantes enteras hexadecimales escritas incorrectamente
+ * 		0x12.340	caracter ilegal (.).
+ * 		0BE38		no comienza por 0x o 0X.
+ * 		0x.4bff		caracter ilegal (.).
+ * 		0XDEFG		caracter ilegal (G).
+ */ 
+ 
+/*
+ * 	CONSTANTES ENTERAS LARGAS Y SIN SIGNO
+ * 	Una constante entera sin signo puede tener un valor maximo de aproximadamente el doble del 
+ * 	maximo (el maximo varia se computadora en computadora y de compilador en compilador en la 
+ * 	misma computadora) de las constantes enteras ordinarias, pero su valor no puede ser negativo.
+ * 	Una constante entera sin signo se identifica añadiendo la letra U, mayuscula o minuscula
+ * 	(U del ingles unsigned), al final de la constante.
+ * 
+ * 	Una constante entera larga pueden tomas valores maximos mayores que las constantes enteras
+ * 	ordinarias, pero ocupa mas memoria de la computadora. En algunas computadoras (y/o algunas
+ * 	computadoras) se genera una constante larga cuando simplemente se especifique una cantidad
+ * 	que exeda el valor maximo. En cualquer caso, siempre es posible especificar una constante 
+ * 	entera larga añadiendo la letra L (mayuscula o minuscula) al final de esta.
+ * 
+ * 	Una constante entera larga sin signo se puede especificar añadiedo las letras UL al final
+ * 	de la constante. Las letras pueden estar en misnusculas o minusculas. Sin embargo, la U debe
+ * 	de ir delante de la L.
+ * 
+ * 	Ejemplo:
+ * 		50000U		decimal (sin signo).
+ * 		123456789L	decimal (larga).
+ * 		123456789UL	decimal (larga sin signo).
+ * 		0123456L	octal (larga).
+ * 		0777777U	octal (sin signo).
+ * 		0x50000U	hexadecimal (sin signo).
+ * 		0xFFFFFUL	hexadecinal (larga sin signo).
+ */
+#define entero_sinsigno_largo 123456789UL
 
 int main()	
 {
 
 	printf ( "Esta es una variable entera decimal %d\n\n", entero_decimal );
-	printf ( "Esta es una variable entera decimal %O\n\n", entero_octal );
+	printf ( "Esta es una variable entera octal %o\n\n", entero_octal );
+	printf ( "Esta es una variable entera hexadecimal %x\n\n", entero_hexadecimal );
+	printf ( "Esta es una variable entera larga sin signo %i\n\n", entero_sinsigno_largo );
 	
 	return 0;	
 }	
