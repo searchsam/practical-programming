@@ -19,28 +19,21 @@
 #include <stdio.h> 
 
 /*
- * 	CONSTANTE EN COMA FLOTANTE
- * 	Una constante en coma flotante es un numero en base 10 que contiene un punto decimal
- * 	o un exponente o ambos.
- * 
+ * 	CONSTANTE DE CADENA DE CARACTERES
+ * 	Una costante de cadena de cadena de caracteres consta de cualquier numero de caracteres
+ * 	consecutivos o ninguno, encerrado entre comillas dobles.
+ * 	
  * 	Ejemplo:
- * 		0.		1.			0.2			827.602
- * 		50000	0.000743	12.3		341.0066
- * 		2E-8	0.006e-3	1.6667E+8	.12121212e12
+ * 		"verde"		"Managua, Nic 2012"			"270-32-3456"
+ * 		"$19.95"	"LA RESPUESTA CORRECTA ES"	"2*(I+3/J)"
+ * 		"     "		"Linea 1\nLinea 2\nLinea 3"	""
  */
-#define flotante 0.006E-3
-/*
- * 	Las siguientes no son constantes en coma flotante por las razones indicadas.
- * 		1		Deben encontrarse presente un punto decimal o un exponente.
- * 		1,000.0	Caracter ilegal (,).
- * 		2E+10.2	El exponente debe ser una cantidad entera (no puede contener un puento decimal).
- * 		3E 10	Caracte ilegal (espacio en blanco) en el exponente.
- */
+#define cadena "\tPara continuar, pulsar la tecla \"RETURN\"\n"
 
 int main()	
 {
 
-	printf ( "Esta es una constante en coma flotante %f\n\n", flotante );
+	printf ( "Esta es una constante de cadena de caracteres \n%s\n\n", cadena );
 	
 	return 0;	
 }	

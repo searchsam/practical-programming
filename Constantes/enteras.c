@@ -111,10 +111,10 @@
 int main()	
 {
 
-	printf ( "Esta es una variable entera decimal %d\n\n", entero_decimal );
-	printf ( "Esta es una variable entera octal %o\n\n", entero_octal );
-	printf ( "Esta es una variable entera hexadecimal %x\n\n", entero_hexadecimal );
-	printf ( "Esta es una variable entera larga sin signo %i\n\n", entero_sinsigno_largo );
+	printf ( "Esta es una constante entera decimal %d\n\n", entero_decimal );
+	printf ( "Esta es una constante entera octal %o\n\n", entero_octal );
+	printf ( "Esta es una constante entera hexadecimal %x\n\n", entero_hexadecimal );
+	printf ( "Esta es una constante entera larga sin signo %i\n\n", entero_sinsigno_largo );
 	
 	return 0;	
 }	

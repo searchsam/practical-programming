@@ -37,12 +37,4 @@ int main()
 
 /*
  *	Programa en lenguaje c, creado y compilado en djgpp y geany.
- * 
- * 	Para compilar un programa desde djgpp sin geany hace desde la 
- *	linea de conmandos con el siguiente comando: 
- *	 	gcc -c nombre.c -o nombre.exe
- *  y agregar la siguiente linea antes de return 0;
- *      system("PAUSE");
- *  si esto no funciona prueba a añadir:
- *      getch();
  */

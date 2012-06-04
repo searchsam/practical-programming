@@ -55,8 +55,8 @@
 int main()	
 {
 
-	printf ( "Esta es una variable de caracter %c\n\n", caracter );
-	printf ( "Esta es una variable de secuencia de escape %c\n\n", caracter_escape );
+	printf ( "Esta es una constante de caracter %c\n\n", caracter );
+	printf ( "Esta es una constante de secuencia de escape %c\n\n", caracter_escape );
 	
 	return 0;	
 }	
