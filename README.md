@@ -40,4 +40,4 @@ y facilita los posibles cambios futuros del programa.
 Normalmente queremso que un progrma sea lo mas general posible, dentro de los limites razonables, por ejemplo, podemos hacer un programa 
 que lea los valores en lugar de hacerlos fijos. Como norma general se puede consegir con muy poco esfuerzo adicional una cantidad considerable de generalidad.
 
-> cc-by-nc 3.0 serch.sam
+> cc-by-sa 4.0
